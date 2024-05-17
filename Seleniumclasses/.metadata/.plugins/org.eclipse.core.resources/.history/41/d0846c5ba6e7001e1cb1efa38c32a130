@@ -1,0 +1,13 @@
+package com.gowshik.javabasic;
+
+public class HelloWorld {
+public static void main (String[] args) {
+	String d = "gow99";
+	System.out.println(d);
+	System.out.println("good");//good
+	
+}
+
+}
+
+

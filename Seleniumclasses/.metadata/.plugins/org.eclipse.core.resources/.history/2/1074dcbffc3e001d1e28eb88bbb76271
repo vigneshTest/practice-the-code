@@ -1,0 +1,37 @@
+package com.example;
+
+public class String4 {
+
+	public static void main(String[] args) {
+String a = "athan is pannada";
+String t = "jAAyaseelan is 99";
+String z ="jayaseelan is ku illa";
+int b =a.length();
+System.out.println(b);
+Boolean yy= a.equals(t);
+System.out.println(yy);
+Boolean uu = a.equalsIgnoreCase(t);
+System.out.println(uu);
+String ii = a.toUpperCase();
+System.out.println(ii);
+String gg =t.toLowerCase();
+System.out.println(t);
+int pp=a.indexOf("n");
+System.out.println(pp);
+int bb = a.lastIndexOf("a");
+System.out.println(bb);
+Boolean zzz =z.contains("k");
+System.out.println(zzz);
+String tt=t.replaceAll("[\\D]", "");
+System.out.println(tt);
+String kk=t.replaceAll("[\\d]", "");
+System.out.println(kk);
+String jj=t.replaceAll(" ", "");
+System.out.println(jj);
+
+
+
+
+	}
+
+}

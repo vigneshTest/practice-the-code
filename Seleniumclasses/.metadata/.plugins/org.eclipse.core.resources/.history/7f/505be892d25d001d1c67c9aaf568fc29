@@ -1,0 +1,5 @@
+package Stepdefinitions;
+
+public interface Opengooglestepdefinition{
+
+}

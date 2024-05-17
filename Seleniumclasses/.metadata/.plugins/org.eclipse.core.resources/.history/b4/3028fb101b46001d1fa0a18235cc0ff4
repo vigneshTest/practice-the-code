@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class exceptionhandling {
+	 static String k ;
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		int num =sc.nextInt();
+		int p = num/0;
+		System.out.println(p);
+	
+	
+		/*try {
+			
+			System.out.println(k.length());
+			
+		} catch (java.lang.NullPointerException e) {
+			e.printStackTrace();
+		}
+		System.out.println("ram");
+*/
+	}
+
+}

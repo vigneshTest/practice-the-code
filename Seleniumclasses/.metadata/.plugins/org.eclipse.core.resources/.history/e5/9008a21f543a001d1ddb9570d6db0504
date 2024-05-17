@@ -1,0 +1,12 @@
+package com.example;
+
+public class methodoverriding {
+	public void addition(int a,int b) {
+		int c = a+b;
+
+	}
+	public  void subtraction(int a,int b) {
+int c = a*b;
+	}
+
+}

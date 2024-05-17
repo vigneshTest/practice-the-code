@@ -1,0 +1,21 @@
+package com.example;
+
+public class child implements Interfaceparent,parent2 {
+	public void username() {
+		String a = "Krishna";
+		
+		
+	}
+	public void password()
+	{
+		int b = 5678;
+		
+		
+	}
+	public static void main(String[] args) {
+		child pp = new child();
+		pp.username();
+		//System.out.println(pp.username());
+	}
+	}
+

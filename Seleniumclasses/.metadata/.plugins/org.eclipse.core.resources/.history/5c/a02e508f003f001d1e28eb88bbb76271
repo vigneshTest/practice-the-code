@@ -1,0 +1,50 @@
+package com.example;
+
+public class String4 {
+
+	public static void main(String[] args) {
+String a = "  athan is pannada";
+String t = "jAAyaseelan is 99";
+String z ="jayaseelan is ku illa";
+int b =a.length();
+System.out.println(b);
+Boolean yy= a.equals(t);
+System.out.println(yy);
+Boolean uu = a.equalsIgnoreCase(t);
+System.out.println(uu);
+String ii = a.toUpperCase();
+System.out.println(ii);
+String gg =t.toLowerCase();
+System.out.println(t);
+int pp=a.indexOf("n");
+System.out.println(pp);
+int bb = a.lastIndexOf("a");
+System.out.println(bb);
+Boolean zzz =z.contains("k");
+System.out.println(zzz);
+String tt=t.replaceAll("[\\D]", "");
+System.out.println(tt);
+String kk=t.replaceAll("[\\d]", "");
+System.out.println(kk);
+String jj=t.replaceAll(" ", "");
+System.out.println(jj);
+char hh=z.charAt(3);
+System.out.println(hh);
+String xx =t.concat("uuuuu");
+System.out.println(xx);
+String ff =t.substring(7);
+System.out.println(ff);
+Boolean kuu=t.isEmpty();
+System.out.println(kuu);
+String aa=t.replace("99", "9");
+System.out.println(aa);
+String ss=a.trim();
+System.out.println(ss);
+System.out.println(a);
+String[] spilt = t.split(" ");
+System.out.println(spilt);
+
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.example;
+
+interface parent2 {
+	public String password();
+		
+	
+
+}

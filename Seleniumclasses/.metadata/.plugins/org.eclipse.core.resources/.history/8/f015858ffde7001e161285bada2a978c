@@ -1,0 +1,15 @@
+package com.gowshik.javabasic;
+
+public class HelloWorld {{
+	String d = "gow99";
+	System.out.println(d);}
+	
+public static void main (String[] args) {
+	
+	System.out.println("good");//good
+	
+}
+
+}
+
+

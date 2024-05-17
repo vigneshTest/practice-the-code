@@ -1,0 +1,23 @@
+import org.dataloader.Try;
+
+import net.bytebuddy.implementation.bytecode.Throw;
+
+public class exceptionhandling {
+	 static String k ;
+
+	public static void main(String[] args) {
+			
+
+	
+		try {
+			
+			System.out.println(k.length());
+			
+		} catch (java.lang.NullPointerException e) {
+			
+		}
+		System.out.println("ram");
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package cucumber.cucumber;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Launch_Incognito {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+WebDriverManager.chromedriver().setup();
+//System.setProperties("C:\\Users\\vicky\\Downloads\\chromedriver-win64\\chromedriver.exe");
+System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\vicky\\\\Downloads\\\\chromedriver-win64\\\\chromedriver.exe");
+ChromeOptions options = new ChromeOptions();
+options.addArguments("--incognito");
+DesiredCapabilities cap = new DesiredCapabilities();
+cap.setCapability(ChromeOptions.CAPABILITY, options);
+options.merge(cap);
+WebDriver driver = new ChromeDriver(options);
+Thread.sleep(1000);
+driver.get("www.facebook.com");
+
+	}
+
+}
